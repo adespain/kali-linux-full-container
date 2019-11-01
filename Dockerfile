@@ -1,6 +1,6 @@
-FROM kalilinux/kali-linux-docker
+FROM kalilinux/kali-rolling
 
-LABEL maintainer="Booyaabes"
+LABEL maintainer="babigtonicus"
 
 RUN apt-get -y update && apt-get -y upgrade && \
    apt-get install -y \
